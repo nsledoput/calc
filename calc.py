@@ -9,7 +9,7 @@ s = float (input ("Type distance after refuel:"))
 if v < 0 :
 	print ("Incorrect value")
 elif s < 0 :
-	print ("Incorretc value")
+	print ("Incorrect value")
 else:
 	cons = float(( v/s ) * 100 )
 	round (cons)
